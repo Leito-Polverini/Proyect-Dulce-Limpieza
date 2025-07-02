@@ -230,12 +230,15 @@ td, th {
   .header {
     height: auto;
     position: absolute;
-    background-color: rgb(194, 108, 194);
+    background-color: rgba(119, 61, 119, 0.815);
+  }
+
+  .contenido {
+    margin-top: 45%;
   }
 
   .container .btn-menu,
   .container .menu {
-    float: none;
     text-align: center;
     line-height: normal;
   }
