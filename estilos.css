@@ -239,6 +239,9 @@ td, th {
 
   .container .btn-menu,
   .container .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     line-height: normal;
   }
