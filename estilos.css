@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat Alternates", sans-serif;
 }
+
 body {
   background-image: url("./fondo-morado.png");
   background-attachment: fixed;
@@ -12,19 +14,22 @@ body {
   background-position: center; 
   background-repeat: no-repeat;
 }
+
 .logo-index {
   text-decoration: none;
 }
+
 .capa {
   position: fixed;
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.322);
   z-index: -1;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
-/*Estilos para el encabezado*/
+
+/* Header Styles */
 .header {
   width: 100%;
   height: 100px;
@@ -32,31 +37,37 @@ body {
   top: 0;
   left: 0;
 }
+
 .container {
   width: 90%;
   max-width: 1200px;
   margin: auto;
 }
+
 .container .btn-menu,
 .logo {
   float: left;
   line-height: 100px;
 }
+
 .container .btn-menu label {
   color: #fff;
   font-size: 25px;
   cursor: pointer;
 }
+
 .logo h1 {
   color: #fff;
   font-weight: 400;
   font-size: 22px;
   margin-left: 10px;
 }
+
 .container .menu {
   float: right;
   line-height: 100px;
 }
+
 .container .menu a {
   display: inline-block;
   padding: 15px;
@@ -68,16 +79,17 @@ body {
   font-size: 15px;
   margin-right: 5px;
 }
+
 .container .menu a:hover {
   border-bottom: 2px solid #c7c7c7;
   padding-bottom: 5px;
 }
-/*Fin de Estilos para el encabezado*/
 
-/*Menù lateral*/
+/* Sidebar Menu */
 #btn-menu {
   display: none;
 }
+
 .container-menu {
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
@@ -89,10 +101,12 @@ body {
   opacity: 0;
   visibility: hidden;
 }
+
 #btn-menu:checked ~ .container-menu {
   opacity: 1;
   visibility: visible;
 }
+
 .cont-menu {
   width: 100%;
   max-width: 250px;
@@ -102,12 +116,15 @@ body {
   transition: all 500ms ease;
   transform: translateX(-100%);
 }
+
 #btn-menu:checked ~ .container-menu .cont-menu {
   transform: translateX(0%);
 }
+
 .cont-menu nav {
   transform: translateY(15%);
 }
+
 .cont-menu nav a {
   display: block;
   text-decoration: none;
@@ -116,10 +133,12 @@ body {
   border-left: 5px solid transparent;
   transition: all 400ms ease;
 }
+
 .cont-menu nav a:hover {
   border-left: 5px solid #c7c7c7;
   background: #1f1f1f;
 }
+
 .cont-menu label {
   position: absolute;
   right: 5px;
@@ -128,27 +147,30 @@ body {
   cursor: pointer;
   font-size: 18px;
 }
-/*Fin de Menù lateral*/
 
-/*Ttitulos*/
-p{
+/* Titles */
+p {
   color: lightgrey;
   text-align: left;
   margin: 1% auto 1% 1.75rem;
 }
-h1{
+
+h1 {
   color: rgb(181, 147, 206);
   margin-left: 1.75rem;
   margin-top: auto;
 }
+
 .centrar {
   text-align: center;
-  margin-top: 1rems;
+  margin-top: 1rem;
 }
-h3{
+
+h3 {
   color: rgb(156, 156, 219);
   margin-left: 0.75rem;
 }
+
 .contenido {
   z-index: 1;
   margin-top: 15%;
@@ -156,10 +178,12 @@ h3{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-li{
+
+li {
   z-index: 1;
   margin: 0.2rem 0 0 0.75rem;
 }
+
 .proceso {
   display: flex;
   align-items: center;
@@ -192,11 +216,61 @@ li{
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 80;
+  width: 80%;
 }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+  }
+
+  .container .btn-menu,
+  .container .menu {
+    float: none;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .container .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container .menu a {
+    margin: 5px 0;
+  }
+
+  .container-menu {
+    background: rgba(128, 0, 128, 0.5); /* Purple background for mobile */
+  }
+
+  .proceso {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proceso-hijos {
+    width: 80%; /* Adjust width for mobile */
+  }
+
+  .img-promedio {
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+  }
+
+
+  .img-rectangulo {
+    width: 280px;
+    height: 320px;
+    border-radius: 20px; /* Maintain aspect ratio */
+  }
 }
