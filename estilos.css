@@ -241,7 +241,7 @@ td, th {
     text-align: center; /* Center text within the container */
   }
   .container .menu {
-    line-height: none;
+    line-height: normal;
     float: none;
   }
   .container .btn-menu {
