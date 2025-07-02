@@ -6,7 +6,7 @@
   font-family: "Montserrat Alternates", sans-serif;
 }
 body {
-  background-image: url("fondo.avif");
+  background-image: url("./fondo-morado.png");
   background-attachment: fixed;
   background-size: cover; 
   background-position: center; 
