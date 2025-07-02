@@ -161,10 +161,19 @@ li{
   margin: 0.2rem 0 0 0.75rem;
 }
 .proceso {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   z-index: 1;
   margin-top: 15%;
   color: lightgoldenrodyellow;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.proceso-hijos {
+  display: flex;
+  width: 20%;
+  height: auto;
 }
 
 .img-promedio {
