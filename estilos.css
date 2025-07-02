@@ -170,11 +170,13 @@ li{
 .img-promedio {
   width: 320px;
   height: 320px;
+  border-radius: 20px;
 }
 
 .img-rectangulo {
   width: 280px;
   height: 320px;
+  border-radius: 20px;
 }
 
 table {
