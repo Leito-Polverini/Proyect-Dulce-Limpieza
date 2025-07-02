@@ -241,12 +241,11 @@ td, th {
   .container .btn-menu {
     display: flex; /* Use flex to align items */
     align-items: center; /* Center the button vertically */
-    margin-right: 10px; /* Add space to the right of the button */
-  }
+    margin-right: 10px;
+    margin-left: 40%;  }
   .logo {
     display: flex; /* Use flex to align items */
     align-items: center; /* Center the logo vertically */
-    margin-bottom: 10px; /* Add some space below the logo */
   }
 
 
