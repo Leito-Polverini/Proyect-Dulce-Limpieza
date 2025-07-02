@@ -228,6 +228,8 @@ td, th {
 /* Responsive Styles */
 @media (max-width: 768px) {
   .header {
+    position: absolute;
+    background-color: rebeccapurple;
     height: auto;
     display: flex;
     flex-direction: column; /* Stack elements vertically */
