@@ -74,7 +74,7 @@ body {
   line-height: normal;
   text-decoration: none;
   color: #fff;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; 
   border-bottom: 2px solid transparent;
   font-size: 15px;
   margin-right: 5px;
@@ -229,7 +229,7 @@ td, th {
 @media (max-width: 768px) {
   .header {
     position: absolute;
-    background-color: rgb(149, 11, 248);
+    background-color: rgb(38, 3, 63);
     height: auto;
     display: flex;
     flex-direction: column; /* Stack elements vertically */
@@ -271,14 +271,22 @@ td, th {
   .img-rectangulo {
     width: 280px;
     height: 320px;
-    border-radius: 20px; /* Maintain aspect ratio */
+    border-radius: 20px; /* Ya pongo cualquiero cosa jsjsjsjs*/ 
   }
 
   .contenido {
-    margin-top: 5rem;
+    margin-top: 15rem;
   }
 
   .li {
     list-style: none;
+  }
+
+  .container .menu a {
+    font-size: 8px;
+  }
+
+  .logo h1 {
+    font-size: 15px; /* Se ve muy grande en cel, por eso lo achico*/
   }
 }
