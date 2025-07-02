@@ -240,6 +240,10 @@ td, th {
     width: 100%; /* Ensure the container takes full width */
     text-align: center; /* Center text within the container */
   }
+  .container .menu {
+    line-height: none;
+    float: none;
+  }
   .container .btn-menu {
     display: flex; /* Use flex to align items */
     align-items: center; /* Center the button vertically */
@@ -275,7 +279,7 @@ td, th {
   }
 
   .contenido {
-    margin-top: 15rem;
+    margin-top: 5rem;
   }
 
   .li {
