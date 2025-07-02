@@ -229,6 +229,8 @@ td, th {
 @media (max-width: 768px) {
   .header {
     height: auto;
+    position: absolute;
+    background-color: rgb(194, 108, 194);
   }
 
   .container .btn-menu,
