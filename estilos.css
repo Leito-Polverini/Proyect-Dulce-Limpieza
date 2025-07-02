@@ -229,20 +229,12 @@ td, th {
 @media (max-width: 768px) {
   .header {
     height: auto;
-    position: absolute;
+    position: static;
     background-color: rgba(119, 61, 119, 0.815);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .contenido {
-    margin-top: 45%;
   }
 
   .container .btn-menu,
   .container .menu {
-    text-align: center;
     line-height: normal;
   }
 
