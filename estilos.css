@@ -229,28 +229,26 @@ td, th {
 @media (max-width: 768px) {
   .header {
     height: auto;
-    position: static;
-    background-color: rgba(119, 61, 119, 0.815);
-  }
-
-  .container .btn-menu,
-  .container .menu {
-    line-height: normal;
-  }
-
-  .container .menu {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align items */
+    justify-content: center; /* Center-justify items */
+  }
+  .container {
+    width: 100%; /* Ensure the container takes full width */
+    text-align: center; /* Center text within the container */
+  }
+  .container .btn-menu {
+    display: flex; /* Use flex to align items */
+    align-items: center; /* Center the button vertically */
+    margin-right: 10px; /* Add space to the right of the button */
+  }
+  .logo {
+    display: flex; /* Use flex to align items */
+    align-items: center; /* Center the logo vertically */
+    margin-bottom: 10px; /* Add some space below the logo */
   }
 
-  .container .menu a {
-    margin: 5px 0;
-  }
-
-  .container-menu {
-    background: rgba(128, 0, 128, 0.5); /* Purple background for mobile */
-  }
 
   .proceso {
     flex-direction: column;
