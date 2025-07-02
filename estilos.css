@@ -174,7 +174,7 @@ li{
   display: block;
   justify-content: center;
   width: 30%;
-  height: 50%;
+  height: auto;
 }
 
 .img-promedio {
