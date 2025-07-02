@@ -271,7 +271,7 @@ td, th {
   .img-rectangulo {
     width: 280px;
     height: 320px;
-    border-radius: 20px; /* Ya pongo cualquiero cosa jsjsjsjs*/ 
+    border-radius: 20px; /* Tengo el control de vuelta */ 
   }
 
   .contenido {
@@ -284,6 +284,8 @@ td, th {
 
   .container .menu a {
     font-size: 8px;
+    float: none;
+    align-items: center;
   }
 
   .logo h1 {
