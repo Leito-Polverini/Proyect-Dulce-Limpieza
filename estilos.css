@@ -229,7 +229,7 @@ td, th {
 @media (max-width: 768px) {
   .header {
     position: absolute;
-    background-color: rebeccapurple;
+    background-color: rgb(149, 11, 248);
     height: auto;
     display: flex;
     flex-direction: column; /* Stack elements vertically */
@@ -244,7 +244,8 @@ td, th {
     display: flex; /* Use flex to align items */
     align-items: center; /* Center the button vertically */
     margin-right: 10px;
-    margin-left: 30%;  }
+    margin-left: 25%;  
+  }
   .logo {
     display: flex; /* Use flex to align items */
     align-items: center; /* Center the logo vertically */
@@ -271,5 +272,13 @@ td, th {
     width: 280px;
     height: 320px;
     border-radius: 20px; /* Maintain aspect ratio */
+  }
+
+  .contenido {
+    margin-top: 5rem;
+  }
+
+  .li {
+    list-style: none;
   }
 }
